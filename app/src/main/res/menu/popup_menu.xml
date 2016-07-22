@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lan.rhythm.atys.MainActivity">
+<item android:title="随机"
+    android:id="@+id/random" />
+    <item android:title="单曲"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:id="@+id/one"/>
+    <item android:title="循环"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:id="@+id/cycle"/>
+    <item android:title="顺序"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:id="@+id/order"/>
+</menu>
